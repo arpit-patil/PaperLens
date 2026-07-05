@@ -1,4 +1,4 @@
- #PaperLens
+#PaperLens
 
 Find the right research paper in seconds — not by keywords, but by meaning.
 
