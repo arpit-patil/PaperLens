@@ -1,7 +1,8 @@
-#PaperLens
 
-Find the right research paper in seconds — not by keywords, but by meaning.
 
+#  PaperLens
+
+**Find the right research paper in seconds — not by keywords, but by meaning.**
 
 
 ---
@@ -16,10 +17,10 @@ You type a question like *"deep learning for medical image analysis"* — PaperL
 
 | Stage | What happens | Model used |
 |---|---|---|
-|  Retrieve | Embed your query and find the closest papers in vector space | `all-MiniLM-L6-v2` + FAISS |
-|  Rerank | Re-score the top candidates for true relevance | `ms-marco-MiniLM-L-6-v2` |
-|  Summarize | Compress each abstract into a few readable sentences | `bart-large-cnn` |
-|  Extract keywords | Pull out the key phrases behind each result | KeyBERT |
+| 🔎 Retrieve | Embed your query and find the closest papers in vector space | `all-MiniLM-L6-v2` + FAISS |
+| 🎯 Rerank | Re-score the top candidates for true relevance | `ms-marco-MiniLM-L-6-v2` |
+| 📝 Summarize | Compress each abstract into a few readable sentences | `bart-large-cnn` |
+| 🏷️ Extract keywords | Pull out the key phrases behind each result | KeyBERT |
 
 ## Try It
 
@@ -82,4 +83,5 @@ Vector search alone (bi-encoder) is fast but approximate — it compares query a
 
 ## License
 
+MIT
 MIT
